@@ -1,0 +1,8 @@
+# Ignore .DS_Store everywhere
+/**/.DS_Store
+
+# Ignore assets from David's Cookie Craving
+1styear/*/assets/
+1styear/*/js/
+1styear/*/node_modules
+1styear/*/styles/
