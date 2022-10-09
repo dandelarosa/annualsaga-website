@@ -1,6 +1,11 @@
 # Ignore .DS_Store everywhere
 /**/.DS_Store
 
+# Ignore Angular artifacts
+node_modules
+.angular
+dist
+
 # Ignore embedded games
 /**/game_embed/
 
