@@ -1,0 +1,11 @@
+version: '3'
+services:
+  annualsaga-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4200:4200"
+    container_name: annualsaga-website
+    volumes:
+      - .:/app
